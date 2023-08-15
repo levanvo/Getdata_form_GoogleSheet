@@ -1,11 +1,12 @@
 import express from "express";
 import cors from "cors";
-import { go_3 } from "./handle";
+import { Read, Wirite } from "./handle";
 
 
 const app=express();
 app.use(express.json());
 app.use(cors());
+app.use('/read',Read);
+app.use("/write",Wirite);
 
-app.use("/",go_3);
 export const viteNodeApp=app;
