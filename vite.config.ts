@@ -59,5 +59,5 @@ export default defineConfig({
         //   'fastify-swagger',
         // ],
     },
-    // ko
+    // kov
 });
