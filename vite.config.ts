@@ -59,5 +59,4 @@ export default defineConfig({
         //   'fastify-swagger',
         // ],
     },
-    // ok
 });
