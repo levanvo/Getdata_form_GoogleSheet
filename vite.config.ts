@@ -59,4 +59,5 @@ export default defineConfig({
         //   'fastify-swagger',
         // ],
     },
+    // vole
 });
